@@ -15,22 +15,36 @@
 // console.log("" === false);
 
 // Operator Or (||) Jika salah satunya true maka hasilnya akan true
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
 
-// console.log(true || true);
-// console.log(true || false);
-// console.log(false || true);
-// console.log(false || false);
+let a = true;
+let b = false;
+console.log(a || b);
 
-// let a = true;
-// let b = false;
-// console.log(a || b);
+let c = 9;
+if (c < 10 || c > 20) {
+  console.log(c);
+}
 
-// let c = 9;
-// if (c < 10 || c > 20) {
-//   console.log(c);
-// }
+// Operator And (&&) Jika Salah Satunya false maka hasilnya false
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
 
-// Operator Not (!) Jika salah satunya false maka hasilnya false
+let x = true;
+let y = false;
+console.log(x && y);
+
+let w = 9;
+if (w < 10 && w > 20) {
+  console.log(w);
+}
+
+// Operator Not (!)
 // console.log(!1);
 // console.log(!0);
 
@@ -41,8 +55,8 @@
 // console.log(!b);
 
 // Operator Null (??) Jika variabel yang di panggil tidak ada, maka hasilnya akan mengambil yang sudah di definisikan
-let user;
-console.log(user ?? "Anonymous");
+// let user;
+// console.log(user ?? "Anonymous");
 
-let users = "Ballsky";
-console.log(users ?? "Anonymous");
+// let users = "Ballsky";
+// console.log(users ?? "Anonymous");
