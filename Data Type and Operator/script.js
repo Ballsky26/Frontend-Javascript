@@ -30,5 +30,17 @@
 // console.log(a > b);
 
 // Number
-let a = 1;
-console.log(a + 1);
+// let a = 1;
+// console.log(a + 1);
+
+// Undefined Object
+// let name;
+// console.log(name);
+
+// Object
+const player = {
+  name: "Ballsky",
+  age: 23,
+  team: "RDST",
+};
+console.log(player);
