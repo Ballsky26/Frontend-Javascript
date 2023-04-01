@@ -25,6 +25,10 @@
 // console.log(a > b);
 
 // Null
-let a = null;
-let b = 2;
-console.log(a > b);
+// let a = null;
+// let b = 2;
+// console.log(a > b);
+
+// Number
+let a = 1;
+console.log(a + 1);
